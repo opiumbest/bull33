@@ -1,4 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+    <style>
+        :root {
+            position: fixed;
+            top: 0; left: 0;
+            width: 100vw;
+            height: 100vh;
+            display: block;
+        }
+        foreignObject {
+            width: 100vw;
+            height: 100vh;
+            overflow: visible;
+        }
+    </style>
     <foreignObject width="100%" height="100%">
         <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
             <head>
